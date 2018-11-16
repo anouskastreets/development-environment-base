@@ -1,0 +1,5 @@
+---
+  - name: "install dotnetcore"
+    apt:
+      deb: "https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb"
+      autoremove: yes
